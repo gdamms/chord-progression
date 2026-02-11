@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Generate random chord progressions for music composition">
+	<meta name="theme-color" content="#49d59d">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<link rel="icon" href="./favicon.ico">
+	<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+	<link rel="manifest" href="./manifest.json">
+	<title>Chord Progressions</title>
+	<style>
+		@font-face {
+			font-family: 'Boleroesque';
+			src: url('./fonts/Boleroesque%20Honora%20by%20Josh%20Manh%20Nguyen.otf') format('opentype');
+			font-weight: normal;
+			font-style: normal;
+			font-display: block;
+		}
+	</style>
+	<script>
+		// Restore path from sessionStorage if redirected from 404
+		(function() {
+			var redirect = sessionStorage.redirect;
+			delete sessionStorage.redirect;
+			if (redirect && redirect !== location.pathname) {
+				history.replaceState(null, null, redirect);
+			}
+		})();
+	</script>
+  <script type="module" crossorigin src="./assets/index-3y2H88_D.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DI_0QlBh.css">
+<link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
+<body>
+	<div id="app"></div>
+</body>
+</html>
